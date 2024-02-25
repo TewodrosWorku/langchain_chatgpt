@@ -8,8 +8,6 @@ from langchain_community.chat_models import ChatOpenAI
 import os
 from typing import Any, Dict, List
 from langchain.chains import ConversationalRetrievalChain
-from langchain_community.vectorstores.pinecone import Pinecone as PineconeLangChain
-from pinecone import Pinecone
 from langchain.vectorstores.faiss import FAISS
 from langchain.callbacks import get_openai_callback
 from langchain.chains.question_answering import load_qa_chain
