@@ -2,4 +2,4 @@ faiss-cpu==1.7.4
 langchain-openai==0.0.6
 langsmith
 PyPDF2==3.0.1
-python-dotenv
+python-dotenv==1.0.1
