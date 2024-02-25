@@ -66,7 +66,7 @@ def main():
             with open(f"{store_name}/index.faiss", "rb") as f:
                
                 VectorStore=FAISS.load_local(store_name, embeddings=OpenAIEmbeddings())            
-            st.write(VectorStore)
+            # st.write(VectorStore)
             st.write("Store loaded from Disk")
         else:
             st.write("Store created")
